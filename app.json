@@ -2,6 +2,7 @@
   "expo": {
     "name": "finance-tracker-app",
     "slug": "finance-tracker-app",
+    "scheme": "financetracker",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +22,20 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.janz31.financetrackerapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "16684f2e-0760-4723-bc3b-6bc7edb1103c"
+      }
     }
   }
 }
